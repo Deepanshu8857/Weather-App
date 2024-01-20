@@ -1,0 +1,64 @@
+#form{
+    width: 30% !important;
+    margin: auto;
+    margin-top: 8%;
+}
+
+body{
+    height: 90vh;
+    width: 100vw;
+    background-color: #1a2533;
+    color: whitesmoke;
+    font-size: large;
+}
+#button{
+    width: 100%;
+    margin: auto;
+    border: 2px solid rgb(90, 86, 86);
+    border-radius: 10px;
+    font-size: 1.15rem;
+    padding:3px;
+    color: black;
+    background: linear-gradient(to top, rgb(159 174 182), rgb(72 72 68));
+    cursor: pointer;
+
+}
+
+#button:hover{
+    background: #1a2533;
+    border: 2px solid #6d6d69;
+    color: grey;
+}
+#temp{
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+
+#footer {
+    position:absolute;
+    bottom:10%;
+    /* margin: auto; */
+    width:100%;
+    text-align: center;
+
+    /* background:#6cf; */
+ }
+
+ #heading{
+    margin: 5%;
+    color: #b4b4ae;
+    font-weight: 900;
+    letter-spacing: 3px;
+    
+ }
+
+ @media screen and (max-width:500px) {
+    #form{
+        width: 90% !important;
+        margin-top: 5rem;
+    }
+    #heading{
+        margin-top: 10%;
+        
+     }
+ }
